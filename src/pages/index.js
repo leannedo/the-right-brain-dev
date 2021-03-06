@@ -1,14 +1,16 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import '../styles/index.scss'
-import Head from "../components/head"
+import Head from '../components/head'
+import Layout from '../components/Layout/layout'
+import BlogSection from '../components/BlogSection/blog'
 
 const Home = () => {
   return (
     <div>
       <Head title="Home"/>
-      <div>Hello world!</div>
-      <Link to="/blog">MY BLOG</Link>
+      <Layout>
+        <BlogSection />
+      </Layout>
     </div>
   )
 }
