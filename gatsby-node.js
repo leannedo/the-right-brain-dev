@@ -1,5 +1,19 @@
 const path = require('path')
 
+module.exports.onCreateNode = ({ node, actions }) => {
+  const { createNodeField } = actions
+
+  if (node.internal.type === 'MarkdownRemark') {
+    const slug = path.basename(node.fileAbsolutePath, '.md')
+    console.log('slugggggg', slug)
+    createNodeField({
+      node,
+      name: 'slug',
+      value: slug,
+    })
+  }
+}
+
 // create new page on each of the slugs
 module.exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
@@ -9,22 +23,25 @@ module.exports.createPages = async ({ graphql, actions }) => {
 
   const res = await graphql(`
     query {
-      allContentfulBlogPost {
+      allMarkdownRemark {
         edges {
           node {
-            slug
+            fields {
+              slug
+            }
           }
         }
       }
     }
   `)
-  res.data.allContentfulBlogPost.edges.forEach(edge => {
+  res.data.allMarkdownRemark.edges.forEach(edge => {
     createPage({
       component: blogTemplate,
-      path: `/blog/${edge.node.slug}`,
+      path: `/blog/${edge.node.fields.slug}`,
       context: {
-        slug: edge.node.slug,
+        slug: edge.node.fields.slug,
       },
     })
   })
+  console.log(JSON.stringify(res.data.allMarkdownRemark.edges, undefined, 4))
 }

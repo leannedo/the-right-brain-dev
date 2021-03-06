@@ -1,23 +1,31 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
+
 import Head from "../components/head"
 
 export const query = graphql`
   query($slug: String!) {
-    contentfulBlogPost(slug: { eq: $slug }) {
-      title
-      publishedDate(formatString: "MMMM Do, YYYY")
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      frontmatter {
+        title
+        date
+      }
+      html
     }
   }
 `
 
 const Post = ({ data }) => {
+  const { markdownRemark } = data
+  const { frontmatter, html } = markdownRemark
+  const { title, date } = frontmatter
+
   return (
     <div>
-      <Head title={data.contentfulBlogPost.title}/>
-      <h1>{data.contentfulBlogPost.title}</h1>
-      <p>{data.contentfulBlogPost.publishedDate}</p>
+      <Head title={title}/>
+      <h1>{title}</h1>
+      <p>{date}</p>
+      <div dangerouslySetInnerHTML={{ __html: html }}/>
     </div>
   )
 }

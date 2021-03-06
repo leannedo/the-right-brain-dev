@@ -12,38 +12,39 @@ const Blog = () => {
           author
         }
       }
-      allContentfulBlogPost (
-    sort: {
-      fields:publishedDate
-      order: DESC
-    }
-  ) {
-    edges {
-      node {
-        title
-        slug
-        publishedDate (formatString: "MMMM Do, YYYY")
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              title
+              date
+            }
+            fields {
+              slug
+            }
+          }
+        }
       }
-    }
-  }
     }
   `)
 
   console.log(data)
 
-  const postArray = data.allContentfulBlogPost.edges
+  const { site, allMarkdownRemark } = data
+  const { siteMetadata } = site
+  const { edges: postArray } = allMarkdownRemark
 
   return (
     <div>
       <Head title="Blog"/>
-      <h1>{data.site.siteMetadata.title}</h1>
-      <h3>{data.site.siteMetadata.author}</h3>
+      <h1>{siteMetadata.title}</h1>
+      <h3>{siteMetadata.author}</h3>
       <ol>
         {postArray.map(post => (
-          <li key={post.node.title} className="post">
-            <Link to={`/blog/${post.node.slug}`}>
-              <h2>{post.node.title}</h2>
-              <p>{post.node.publishedDate}</p>
+          <li key={post.node.frontmatter.title} className="post">
+            <Link to={`/blog/${post.node.fields.slug}`}>
+              <h2>{post.node.frontmatter.title}</h2>
+              <p>{post.node.frontmatter.date}</p>
             </Link>
           </li>
         ))}
