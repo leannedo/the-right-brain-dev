@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import './blog.scss'
-import Head from "../components/head"
+import Head from "../head"
 
-const Blog = () => {
+const BlogSection = () => {
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -42,7 +42,7 @@ const Blog = () => {
       <ol>
         {postArray.map(post => (
           <li key={post.node.frontmatter.title} className="post">
-            <Link to={`/blog/${post.node.fields.slug}`}>
+            <Link to={`/${post.node.fields.slug}`}>
               <h2>{post.node.frontmatter.title}</h2>
               <p>{post.node.frontmatter.date}</p>
             </Link>
@@ -53,4 +53,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default BlogSection

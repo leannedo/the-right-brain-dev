@@ -1,7 +1,9 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import Head from "../components/head"
+import Head from '../components/head'
+import Layout from '../components/Layout/layout'
+
 
 export const query = graphql`
   query($slug: String!) {
@@ -23,9 +25,11 @@ const Post = ({ data }) => {
   return (
     <div>
       <Head title={title}/>
-      <h1>{title}</h1>
-      <p>{date}</p>
-      <div dangerouslySetInnerHTML={{ __html: html }}/>
+      <Layout>
+        <h1>{title}</h1>
+        <p>{date}</p>
+        <div dangerouslySetInnerHTML={{ __html: html }}/>
+      </Layout>
     </div>
   )
 }
