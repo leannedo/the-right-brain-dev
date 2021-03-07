@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
+  align-items: center;
   margin-bottom: 50px;
 
   ul {
@@ -13,8 +14,8 @@
 
     li {
       list-style: none;
-      margin-right: 20px;
-      margin-left: 20px;
+      margin-right: 14px;
+      margin-left: 14px;
     }
   }
 }
@@ -23,6 +24,26 @@
   text-decoration: none;
   font-weight: 800;
   font-size: 1rem;
-  border-bottom: 3px solid #a5e5b0;
-  padding-bottom: 1px;
+  padding-bottom: 3px;
+  color: #180d2c;
+
+  &.active {
+    border-bottom: 3px solid #a5e5b0;
+  }
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #a5e5b0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .logo-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+  }
 }
