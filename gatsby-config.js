@@ -36,7 +36,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          'gatsby-remark-relative-images',
+          'gatsby-remark-relative-images-v2',
           // before we transform the markdown
           // do something to the images
           {
@@ -44,6 +44,19 @@ module.exports = {
             options: {
               maxWidth: 750,
               linkImagesToOriginal: false
+            }
+          },
+          {
+            resolve: `gatsby-remark-classes`,
+            options: {
+              classMap: {
+                "heading[depth=1]": "h1",
+                "heading[depth=2]": "h2",
+                "list[ordered=false]":  "ul",
+                "list[ordered=true]":  "ol",
+                "listItem": "li",
+                "paragraph": "text",
+              }
             }
           }
         ]
