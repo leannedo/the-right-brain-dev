@@ -9,12 +9,13 @@ const Header = () => {
   return(
     <header>
       <nav className="nav-bar">
+        <p><Link to="/" className="nav-link">LEANNE</Link></p>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" className="nav-link">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/blog" className="nav-link">Blog</Link>
           </li>
         </ul>
       </nav>
