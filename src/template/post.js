@@ -1,9 +1,15 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import hastToHyperscript from "hast-to-hyperscript"
 
 import Head from '../components/head'
 import Layout from '../components/Layout/layout'
 
+import './Post.scss'
+
+const renderHtmlToReact = (node) => {
+  return hastToHyperscript(React.createElement, node)
+}
 
 export const query = graphql`
   query($slug: String!) {
@@ -12,23 +18,23 @@ export const query = graphql`
         title
         date
       }
-      html
+      htmlAst
     }
   }
 `
 
 const Post = ({ data }) => {
   const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, htmlAst } = markdownRemark
   const { title, date } = frontmatter
 
   return (
     <div>
       <Head title={title}/>
       <Layout>
-        <p>{date}</p>
-        <h1>{title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: html }}/>
+        <p className="title">{title}</p>
+        <p className="date">{date}</p>
+        <div className="content">{renderHtmlToReact(htmlAst)}</div>
       </Layout>
     </div>
   )

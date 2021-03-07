@@ -1,0 +1,31 @@
+.title {
+  margin: 4rem 0 0.5rem 0;
+  font-size: 3.5rem;
+  font-weight: 800;
+  width: 70%;
+}
+
+.date {
+  margin: 0 0 2rem 0;
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.content {
+  h2 {
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 1.75rem;
+    margin-top: 4rem;
+  }
+
+  .text {
+    line-height: 2.4rem;
+    font-size: 1.5rem;
+  }
+
+  .gatsby-resp-image-wrapper {
+    margin: 3rem 0;
+  }
+}
