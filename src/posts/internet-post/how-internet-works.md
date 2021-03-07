@@ -2,7 +2,7 @@
 title: 'What is Internet and how it works'
 date: '08-03-2021'
 ---
-##### Let's hope on an adventure to the faraway networks
+##### Let's hop on an adventure to the faraway networks
 
 Internet is an inter-connected network of computers. They connect with each other to transfer information, typically through wire like cables or wireless like wifi.
 

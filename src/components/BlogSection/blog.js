@@ -6,12 +6,6 @@ import Head from "../head"
 const BlogSection = () => {
   const data = useStaticQuery(graphql`
     query {
-      site {
-        siteMetadata {
-          title
-          author
-        }
-      }
       allMarkdownRemark {
         edges {
           node {
@@ -30,22 +24,19 @@ const BlogSection = () => {
 
   console.log(data)
 
-  const { site, allMarkdownRemark } = data
-  const { siteMetadata } = site
+  const { allMarkdownRemark } = data
   const { edges: postArray } = allMarkdownRemark
 
   return (
     <div>
       <Head title="Blog"/>
-      <h1>{siteMetadata.title}</h1>
-      <h3>{siteMetadata.author}</h3>
-      <ol>
+      <h1 className="page-title">My blog</h1>
+      <ol className="post-list">
         {postArray.map(post => (
           <li key={post.node.frontmatter.title} className="post">
-            <Link to={`/${post.node.fields.slug}`}>
-              <h2>{post.node.frontmatter.title}</h2>
-              <p>{post.node.frontmatter.date}</p>
-            </Link>
+            <p style={{ marginBottom: '0.5rem' }}>{post.node.frontmatter.date}</p>
+            <Link to={`/${post.node.fields.slug}`} className="post-title hover-text">{post.node.frontmatter.title}</Link>
+            {/*<p style={{ marginTop: '0.5rem' }}>Read more</p>*/}
           </li>
         ))}
       </ol>

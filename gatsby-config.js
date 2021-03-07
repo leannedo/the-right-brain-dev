@@ -9,6 +9,7 @@ module.exports = {
   siteMetadata: {
     title: 'Right Brain Learns Code',
     author: 'Leanne Do',
+    description: 'A coder who writes === A writer who codes'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -17,8 +18,8 @@ module.exports = {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [
-          `Poppins`,
-          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+          `Karla`,
+          `source sans pro\:300,400,400i,700,800` // you can also specify font weights and styles
         ],
         display: 'swap'
       }
