@@ -24,7 +24,7 @@ const Home = () => {
             I'm intrigued by the way logic and syntax work together to
             construct a reality from virtually nothing.
           </p>
-          <p className="about-sub">Made in Vietnam. Based in Finland.</p>
+          <p className="about-sub">Based in Finland. Made in Vietnam.</p>
         </div>
         <BlogSection />
       </Layout>
