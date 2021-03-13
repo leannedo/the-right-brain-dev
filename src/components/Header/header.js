@@ -5,11 +5,14 @@ import { Link } from 'gatsby'
 // Styling
 import './Header.scss'
 
+// Component
+import Logo from '../Logo'
+
 const Header = () => {
   return(
     <header>
       <nav className="nav-bar">
-        <div className="logo"><Link to="/" className="logo-link">LD</Link></div>
+        <Logo />
         <ul>
           <li>
             <Link to="/" className="nav-link" activeClassName="active">Home</Link>

@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Right Brain Learns Code',
+    title: 'Leanne Do - Nao Phai Di Code',
     author: 'Leanne Do',
     description: 'A coder who writes === A writer who codes'
   },
@@ -36,7 +36,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          'gatsby-remark-relative-images-v2',
+          'gatsby-remark-relative-images',
           // before we transform the markdown
           // do something to the images
           {

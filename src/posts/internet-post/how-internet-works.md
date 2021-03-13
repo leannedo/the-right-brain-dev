@@ -3,6 +3,8 @@ title: 'What is Internet and how it works'
 date: '08-03-2021'
 ---
 
+![Alt text here](./straightway.jpg)
+
 Internet is an inter-connected network of computers. They connect with each other to transfer information, typically through wire like cables or wireless like wifi.
 
 However, people don't just plug cables from one computer to another because it's so costly. So they use an already exist infrastructure which is the telephone line. And the thing used to connect computers to telephone line is called modem. Modem will translate digital information to analog. And finally the modem is connected to the internet provider, those internet providers will be the one who communicate directly with each other to deliver information from computer to computer. All of those networks create what we call internet.
@@ -25,3 +27,4 @@ Next, browser will start reaching out to top-level domain like .org, .net, until
 
 Finally, browser has a rendering engine for displaying the content and an HTML parsing algorithm for parsing the resources. First it take HTML pages and generate the DOM tree. Then it will parse the assets (images, JS, CSS) to each node. When everything has been loaded to the browser window, the connection will be closed.  
   
+So this is the end of our journey, please stay tune for more. Cheers! 
