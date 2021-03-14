@@ -15,12 +15,16 @@ But how can learning programming and a spiral have something to do with each oth
 For me, yes they do.
 
 I just realized this recently when I took a course from FreeCodeCamp on Data Structure and Algorithms in Javascript.
+
 Before I can step into the main parts, I need to revise every corner of Javascript fundamentals (how to declare a variable, write a function, or learn about Object, Array, etc). Those are the things that I came into contact when I first started learning Javascript. Yet, revisiting them still brings up a refreshing and familiar feeling. Of course, I did skip several parts that I have high confidence in. Still I went through every exercise one by one.
+
 I realize that the more we revisit a fundamental concept, the better we grasp its underlying meaning. It helps us write better code and know how to apply the concepts in practice even more skillfully. It’s like climbing a spiral staircase: we always return to the same place, but on a higher level.
 
 ## Programming does not start from A and go all the way to Z 
 
-Previously, when somebody asked me to relearn or reread a piece of concept C, even though I’m currently working on the concept D, E, F, I did take offence. It feels like somebody asks you to go back to elementary school. As a matter of fact, we did step up from 1st grade to 2nd, 3rd, 4th, and then to 11th, and 12th grade. Learning Vietnamese always starts from single sentences to complex sentences. Learning English always starts from simple present to present perfect tense. That’s why I always had an impression that when you are asked to continuously revisit something you have far been through, it means that you have lost your fundamentals. Everything needs to start from A and go all the way to Z.
+Previously, when somebody asked me to relearn or reread a piece of concept C, even though I’m currently working on the concept D, E, F, I did take offence. It feels like somebody asks you to go back to elementary school. As a matter of fact, we did step up from 1st grade to 2nd, 3rd, 4th, and then to 11th, and 12th grade. Learning Vietnamese always starts from single sentences to complex sentences. Learning English always starts from simple present to present perfect tense. 
+
+That’s why I always had an impression that when you are asked to continuously revisit something you have far been through, it means that you have lost your fundamentals. Everything needs to start from A and go all the way to Z.
 
 Well, it’s no longer like that when I learn programming…
 
