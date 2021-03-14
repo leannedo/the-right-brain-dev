@@ -53,7 +53,7 @@ const Post = ({ data }) => {
               <FontAwesomeIcon icon={faGithub}/>
             </a>
           </div>
-          <div className="content">
+          <div className="blog-footer-content">
             <Logo />
             <div>
               <div className="intro">

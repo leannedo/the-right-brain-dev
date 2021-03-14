@@ -14,7 +14,9 @@ The solution to finding the largest number/value is similar to the above scenari
 ## Statements we employ
 There are two statements involving in our process, which is control flow statement (for loop / while loop / for each) and conditional statement (if…else). These two statements are extremely important and are basic of every computer program because repeating tasks is what computers are born to do.
 
-1. For loop: The for loop is used to iterate over every element of an array or a list to find the most suitable element for the condition we set. The syntax in Java is as followed (assume we have 10 elements in the list)
+**1. For loop**: 
+
+The for loop is used to iterate over every element of an array or a list to find the most suitable element for the condition we set. The syntax in Java is as followed (assume we have 10 elements in the list)
 
 ```
 for (int i = 0; i <= 10; i++) {
@@ -23,6 +25,7 @@ for (int i = 0; i <= 10; i++) {
 ```
 
 What to do when we don’t know in advance the number of elements in the array or the list? No worries, we can always ask for the size of an array list or the length of an array.
+
 ```
 for (int i = 0; i <= arrayList.size(); i++) {
 // some logic in here
@@ -32,7 +35,9 @@ for (int i = 0; i <= array.length; i++) {
 }
 ```
 
-2. While loop: Similar to the for loop used for iteration, yet it is used when the number of times we want the loop to run is not fixed.
+**2. While loop**: 
+
+Similar to the for loop used for iteration, yet it is used when the number of times we want the loop to run is not fixed.
 
 ```
 while (true) {
@@ -40,7 +45,10 @@ while (true) {
 }
 ```
 
-3. If…else statement: This statement is used to compare our initial value with other values in the group to find out the “one and only” element that matches our search. In Java, it is used as below:
+**3. If…else statement**: 
+
+This statement is used to compare our initial value with other values in the group to find out the “one and only” element that matches our search. In Java, it is used as below:
+
 ```
 int largestValue = 0;
 if ( nextValue > largestValue) {
@@ -49,7 +57,7 @@ if ( nextValue > largestValue) {
 ```
 
 ## Context of the problem — User Input
-With that knowledge, we will now our solution to find the largest number
+With that knowledge, we will now our solution to find the largest number.
 
 In Java, user’s inputs are read using Scanner which is a class from java.util package. It’s imported and declared like this:
 
