@@ -65,6 +65,7 @@ module.exports = {
               classMap: {
                 "heading[depth=1]": "h1",
                 "heading[depth=2]": "h2",
+                "heading[depth=4]": "h4",
                 "list[ordered=false]":  "ul",
                 "list[ordered=true]":  "ol",
                 "listItem": "li",
