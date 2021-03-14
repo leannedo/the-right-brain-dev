@@ -1,5 +1,5 @@
 ---
-title: 'What is Internet and how it works'
+title: 'What is Internet and How It Works'
 date: '08-03-2021'
 ---
 
