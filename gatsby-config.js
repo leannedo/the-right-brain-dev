@@ -13,6 +13,12 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: 'src/images/favicon.png',
+      },
+    },
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-plugin-google-fonts',
@@ -36,6 +42,13 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: 'carbon',
+              theme: 'blackboard'
+            }
+          },
           'gatsby-remark-relative-images',
           // before we transform the markdown
           // do something to the images

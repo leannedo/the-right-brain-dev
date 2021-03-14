@@ -1,6 +1,6 @@
 // Library
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import hastToHyperscript from "hast-to-hyperscript"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
@@ -41,22 +41,26 @@ const Post = ({ data }) => {
         <p className="title">{title}</p>
         <p className="date">{date}</p>
         <div className="content">{renderHtmlToReact(htmlAst)}</div>
-        <div className="footer-container">
-          <Logo />
-          <div className="footer-content">
-            <p className="hey">Hei, I'm</p>
-            <p className="name">Leanne Do</p>
-            <p className="quote">A writer who codes = A coder who writes</p>
-            <div className="icons">
-              <Link to="https://www.facebook.com/naophaidicode" target="_blank">
-                <FontAwesomeIcon icon={faFacebookSquare}/>
-              </Link>
-              <Link to="https://www.linkedin.com/in/leanedo/" target="_blank">
-                <FontAwesomeIcon icon={faLinkedin}/>
-              </Link>
-              <Link to="https://github.com/leannedo" target="_blank">
-                <FontAwesomeIcon icon={faGithub}/>
-              </Link>
+        <div className="blog-footer">
+          <div className="icons">
+            <a href="https://www.facebook.com/naophaidicode" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faFacebookSquare}/>
+            </a>
+            <a href="https://www.linkedin.com/in/leanedo/" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faLinkedin}/>
+            </a>
+            <a href="https://github.com/leannedo" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faGithub}/>
+            </a>
+          </div>
+          <div className="content">
+            <Logo />
+            <div>
+              <div className="intro">
+                <p className="hey">Hei, I'm</p>
+                <p className="name">Leanne Do</p>
+                <p className="quote">A writer who codes = A coder who writes</p>
+              </div>
             </div>
           </div>
         </div>
