@@ -3,6 +3,11 @@ title: 'Git and GitHub 123'
 date: '2020-07-15'
 description: 'As easy as 123, looking bizarre on the outside, but useful through the whole development line '
 ---
+
+![Alt text here](./github.png)
+
+<span class="image-description">The image was originally designed for the Vietnamese version of the post</span>
+
 Working as a developer is to befriend yourself with a horizon of concepts such as version control system, pushing to GitHub, git repos, pull requests, and so on. And to me they were not very easy to understand, and everytime I was asked to push my project to GitHub or create a new branch for the current work I was liked 'whaaaa are you talking about ??'
 
 At first, I thought it was enough to just create a folder in my computer and do my work in peace, but until I took part in some Udemy courses, and the instructors said that they have a GitHub repo for this project, and we need to fork or clone them to our local, I realized that "I'm doomed". Not a single drop of Git runs in my knowledge vein. Then I decided to seriously learn version control system, and specifically Git.

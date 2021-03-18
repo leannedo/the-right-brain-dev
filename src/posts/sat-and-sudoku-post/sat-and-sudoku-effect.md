@@ -1,7 +1,7 @@
 ---
 title: "'Side effects' of SAT and Sudoku"
 date: '2020-05-30'
-description: 'How I have trained myself to think faster with SAT and Sudoku.'
+description: 'How I trained myself to think faster with SAT and Sudoku.'
 ---
 Prior to learning for the SAT, I was quite a slow thinker.
 

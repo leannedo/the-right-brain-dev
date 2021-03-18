@@ -5,6 +5,8 @@ description: 'The journey of defining the second half of myself - the part that 
 ---
 (or in other words) Pay tribute to the SAT and the JAVA language
 
+![Alt text here](./socialtocom.png)
+
 ## From a social science girl
 
 My background is, I guess, have been conveyed clearly through the title of this part. Yes, I come from a world which is a hundred percent different from that of coding. Let’s take JJ as an example: while JJ uses his left brain in almost everything, I use my right. JJ thinks logically, I employ my emotions. JJ writes code on a daily basic, I write essays and literary analysis.

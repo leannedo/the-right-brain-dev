@@ -57,6 +57,15 @@
     padding: 5px;
     border-radius: 3px;
   }
+
+  .image-description {
+    font-size: 0.9rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #403e45;
+    margin-top: -40px;
+  }
 }
 
 /* blog post footer */

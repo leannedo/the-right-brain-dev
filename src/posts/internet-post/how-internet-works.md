@@ -4,8 +4,6 @@ date: '2021-03-08'
 description: 'How a bunch of inter-connected computers helps drive force the exchange of data and information.'
 ---
 
-![Alt text here](./straightway.jpg)
-
 Internet is an inter-connected network of computers. They connect with each other to transfer information, typically through wire like cables or wireless like wifi.
 
 However, people don't just plug cables from one computer to another because it's so costly. So they use an already exist infrastructure which is the telephone line. And the thing used to connect computers to telephone line is called modem. Modem will translate digital information to analog. And finally the modem is connected to the internet provider, those internet providers will be the one who communicate directly with each other to deliver information from computer to computer. All of those networks create what we call internet.
