@@ -1,7 +1,7 @@
 ---
-title: 'Learn to code by storytelling'
-date: '2020-05-30'
-description: 'A storyteller, tells her way into coding'
+title: 'Hi there. First words!'
+date: '2020-04-02'
+description: 'The beginning to the journey into software development, from someone which a knack for languages.'
 ---
 
 Thank you for clicking to this post and, at the same time, get to know my corner. This is the place where I record my journey to programming as a right-brained person, a journey to explore the second half of myself.

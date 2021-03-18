@@ -3,8 +3,11 @@ title: 'Learning Programming is Never a Straight Road'
 date: '2021-02-09'
 description: "Programming does not start from A and go all the way to Z."
 ---
-
 Disclaimer: This article won't discuss the property of a road (as straight is sometimes envisaged to being flat and smooth), but only the shape of it.
+
+![Alt text here](./straightroad.jpg)
+
+<span class="image-description">The image was originally designed for the Vietnamese version of the post</span>
 
 ## Learning programming is never a straight road
 Why? This is because we always need to "revisit" every old concept that we learnt. It's not like one step at a time, but like going back and forward repeatedly, on a higher and deeper level.
