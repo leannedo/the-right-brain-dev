@@ -1,6 +1,7 @@
 ---
 title: 'How I have come to familiarize myself with the world of coding'
-date: '01-06-2020'
+date: '2020-06-01'
+description: 'The journey of defining the second half of myself - the part that is always curious with how and why something works.'
 ---
 (or in other words) Pay tribute to the SAT and the JAVA language
 

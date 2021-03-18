@@ -1,6 +1,7 @@
 ---
 title: 'Learning Programming is Never a Straight Road'
-date: '09-02-2021'
+date: '2021-02-09'
+description: "Programming does not start from A and go all the way to Z."
 ---
 
 Disclaimer: This article won't discuss the property of a road (as straight is sometimes envisaged to being flat and smooth), but only the shape of it.

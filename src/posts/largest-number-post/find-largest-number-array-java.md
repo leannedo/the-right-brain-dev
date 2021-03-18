@@ -1,6 +1,7 @@
 ---
 title: 'Code’nLearn 1: Finding the largest number in an array using Java'
-date: '27-04-2020'
+date: '2020-04-27'
+description: 'The very first technical post on the very first coding problem that I solved.'
 ---
 
 When I first started learning coding, this used to be the problem (to me) was unsolvable. Why? You might ask. It seems simple and fairly straightforward. Well, not very much with someone whose thinking is a bit convoluted like me. In my head, everything seems a little bit more complicated than it truly is, and that is one of the matters I have to tackle when I learn to code.

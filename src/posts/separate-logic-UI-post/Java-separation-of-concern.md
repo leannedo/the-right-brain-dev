@@ -1,6 +1,7 @@
 ---
 title: 'Code’nLearn 2: Separate UI from logic and the main program'
-date: '02-06-2020'
+date: '2020-06-02'
+description: 'A precious lesson that opened door for the concept of separation of concern that I later learnt.'
 ---
 There are three crucial parts of a Java program: main, the user interface, and the program logic.
 
