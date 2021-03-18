@@ -6,12 +6,13 @@ import Head from "../head"
 const BlogSection = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark (sort: { fields: [frontmatter___date], order: DESC }) {
         edges {
           node {
             frontmatter {
               title
-              date
+              date (formatString: "DD MMMM YYYY")
+              description
             }
             fields {
               slug
@@ -36,7 +37,7 @@ const BlogSection = () => {
           <li key={post.node.frontmatter.title} className="post">
             <p style={{ marginBottom: '0.5rem' }}>{post.node.frontmatter.date}</p>
             <Link to={`/${post.node.fields.slug}`} className="post-title hover-text">{post.node.frontmatter.title}</Link>
-            {/*<p style={{ marginTop: '0.5rem' }}>Read more</p>*/}
+            <p className="description">{post.node.frontmatter.description}</p>
           </li>
         ))}
       </ol>

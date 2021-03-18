@@ -1,8 +1,8 @@
 ---
 title: 'It is OK to fail test cases'
-date: '02-06-2020'
+date: '2020-06-02'
+description: 'As long as you’ve tried your best'
 ---
-As long as you’ve tried your best
 
 At first when my Java lessons was still simple, straightforward and consisted of all easy exercises, I felt overwhelmingly satisfied with myself whenever I returned a solution to the TMC server and received the announcement that my solution had passed all test cases. The green marks on my screen and the statement “All tests passed on the server” filled me with pride and content, the naive feeling of a child when it successfully solves the very first math problem in its entire life “1 plus 1 equals 2”.
 

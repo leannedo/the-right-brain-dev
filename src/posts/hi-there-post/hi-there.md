@@ -1,6 +1,7 @@
 ---
-title: 'Hi there'
-date: '30-05-2020'
+title: 'Learn to code by storytelling'
+date: '2020-05-30'
+description: 'A storyteller, tells her way into coding'
 ---
 
 Thank you for clicking to this post and, at the same time, get to know my corner. This is the place where I record my journey to programming as a right-brained person, a journey to explore the second half of myself.
@@ -15,7 +16,7 @@ I guess we all know the stereotype that right-brained people might be a bit unsu
 
 I’ve experienced doubts and lack of confidence in myself due to the fact that I’m switching to code from a different background and sometimes be seen as not good enough, so I totally understand if you ever feel like rejected. That’s also a reason for me to set up this page: to share my stories in order for people who have similar situation as me to find a common voice and to say that “You’re not alone”.
 
-Currently I call myself “an outsider”, but I don’t want to be full of myself with that position. I’m trying to be in the circle, and I want to make myself qualified for this field, so that I don’t only have good stories to tell, but I also have the right skills to show.
+Currently, I call myself “an outsider”, but I don’t want to be full of myself with that position. I’m trying to be in the circle, and I want to make myself qualified for this field, so that I don’t only have good stories to tell, but I also have the right skills to show.
 
 I think that everyone will have a unique approach to coding, and so do I as a right-brained person, so I hope that you will like my sharings about technical knowledge, about tips to learn better, or any reflection I have for myself.
 

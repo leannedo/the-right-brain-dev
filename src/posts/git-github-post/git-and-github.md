@@ -1,6 +1,7 @@
 ---
 title: 'Git and GitHub 123'
-date: '15-07-2020'
+date: '2020-07-15'
+description: 'As easy as 123, looking bizarre on the outside, but useful through the whole development line '
 ---
 Working as a developer is to befriend yourself with a horizon of concepts such as version control system, pushing to GitHub, git repos, pull requests, and so on. And to me they were not very easy to understand, and everytime I was asked to push my project to GitHub or create a new branch for the current work I was liked 'whaaaa are you talking about ??'
 
