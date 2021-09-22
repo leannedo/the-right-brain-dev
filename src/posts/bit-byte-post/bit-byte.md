@@ -1,7 +1,7 @@
 ---
-title: 'Let's talk bit and byte'
+title: 'What is bit and byte?'
 date: '2021-01-10'
-description: "What is bit, byte and the value they hold"
+description: 'Bit, byte and the value they hold '
 ---
 
 # 1. What is bit and byte? 
@@ -16,7 +16,7 @@ Besides numbers, 8 bits or 1 byte can hold 1 character. Each character is encode
 
 We can read more about the ASCII code [here](http://sticksandstones.kstrom.com/appen.html) 
 
-# 2. How to calculate the value of binary numbers? 
+# 3. How to calculate the value of binary numbers? 
 
 Binary numbers are a pattern with N characters where each character is either 0 or 1. The total values each bit holds can be calculated using the formula:
 `2^N` with the highest number being `2^N - 1`
@@ -31,11 +31,11 @@ Binary numbers are a pattern with N characters where each character is either 0 
                16
 ```
 
-# 3. 8 bits/ 1 byte can also represent negative numbers
+# 4. 8 bits/ 1 byte can also represent negative numbers
 
 That's right! 8 bits or a byte can hold negative numbers as well. And because the left part now represents the sign, it can only hold number ranging from -128 to 127. 
 
-# 4. Some pre-calculated values
+# 5. Some pre-calculated values
 
 8 bits/ 1 byte => 256 values, highest number 255
 
