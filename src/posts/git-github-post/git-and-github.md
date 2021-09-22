@@ -80,7 +80,7 @@ to list all your branches in your local.
 
 to head to your desire branch
 
-**** You can combine those and type `git checkout -b branch-name`
+=> You can combine those and type `git checkout -b branch-name`
 
 #### 5. git push origin branch-name
 
