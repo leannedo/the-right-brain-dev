@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "the-right-brain-dev",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A collection of technical and personal sharings of leannedo - the right-brain dev",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "env-cmd gatsby develop",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -43,12 +43,5 @@
   "devDependencies": {
     "env-cmd": "^10.1.0",
     "prettier": "2.2.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
