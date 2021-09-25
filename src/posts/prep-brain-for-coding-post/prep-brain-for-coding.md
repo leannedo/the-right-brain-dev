@@ -4,6 +4,10 @@ date: '2021-05-10'
 description: 'One thing for certain is I didn't just jump into learning programming in day 1. But I spend sometimes to get myself aquainted to logical questions, problem solvings, math...'
 ---
 
+![Alt text here](./prep-code.jpeg)
+
+<span class="image-description">The image was originally designed for the Vietnamese version of the post</span>
+
 # I also started differently
 
 At the very beginning, this blog's aim has always been to inspire and encourage anyone who switches careers and self-teaches themselves software development, just like 'meself' when I first started. I understand the frustration and exhaustion when you turn into a different career path, which doesn't like anything you have known. Some of you don't even have a degree, not knowing if you can make it or if anyone can make it. 🤷‍♀️
