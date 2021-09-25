@@ -1,7 +1,7 @@
 ---
 title: 'A practical guide to JavaScript and React learning resources'
 date: '2020-08-16'
-description: ""
+description: "All the books, courses and materials I have gone through on my way to learn JavaScript/ React"
 ---
 
 ![Alt text here](./js-react.png)
