@@ -1,7 +1,7 @@
 ---
 title: 'Prep our brain for the coding journey'
 date: '2021-05-10'
-description: "I didn't not jump into learning programming on day 1 but spent time getting acquainted to logical questions, problem solvings, math"
+description: "I did not jump into learning programming on day 1 but spent time getting acquainted to logical questions, problem solvings, math"
 ---
 
 ![Alt text here](./prep-code.jpeg)
