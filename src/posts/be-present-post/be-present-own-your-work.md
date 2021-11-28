@@ -48,7 +48,7 @@ Treat the product, features like your own and you will know what to do. For exam
 
 # 6️⃣ Be kind
 
-Give more compliments. I always comment "good work" in others' PR, give hurt or support my colleagues when they have nice ideas because I think everyone deserves to be praised and acknowledged. I would want it too, so why hesitate giving others?
+Give more compliments. I always comment "good work" in others' PR, give ❤️ or support my colleagues when they have nice ideas because I think everyone deserves to be praised and acknowledged. I would want it too, so why hesitate giving others?
 
 Be in your teammate's shoes when commenting on their PRs because they are public and anyone can read it. Be polite and give suggestions "I think you should, I suggest that, how about, etc" rather than commands.
 
